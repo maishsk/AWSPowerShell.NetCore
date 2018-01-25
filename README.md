@@ -45,8 +45,8 @@ EOF
 
 chmod +x /usr/local/bin/powershell
 ```  
-<br>
-<br>
+
+
 *You will have to source your ``.bashrc`` file for this alias to take effect.*
 
 ### Using the container
