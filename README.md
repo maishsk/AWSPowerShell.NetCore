@@ -44,8 +44,9 @@ fi
 EOF
 
 chmod +x /usr/local/bin/powershell
-```
-
+```  
+<br>
+<br>
 *You will have to source your ``.bashrc`` file for this alias to take effect.*
 
 ### Using the container
@@ -66,3 +67,5 @@ Or if you would like to already use the profiles in your config file you can run
 
 ## Limitations
 The wrapper used above allows for **only** one instance / session of the PowerShell container to exist at any time. This was my personal preference for my workflow - if you would like to work differently - then you will have to modify the bash script.
+
+Please see this blog [post](http://technodrone.blogspot.com/2018/01/the-aws-powershell-docker-container.html) for more information.
