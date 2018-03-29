@@ -1,0 +1,1 @@
+- New Version PowerShell Version: **6.0.1** AWSPowerShell.NetCore: **3.3.245.0**
