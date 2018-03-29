@@ -1,5 +1,4 @@
 # The AWS PowerShell container
-
 This container has allows you to run the AWS PowerShell commands Linux or Mac.
 
 PowerShell Version: **6.0.1**
