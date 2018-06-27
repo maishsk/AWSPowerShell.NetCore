@@ -26,7 +26,7 @@ NEW_VERSION="`date  "+%Y%m%d%H%M%S"`-`increment_version $VERSION`"
 echo $NEW_VERSION > VERSION
 
 # tag it
-git log --pretty=format:"- %s%n%B" --since="$(git show -s --format=%ad `git rev-list --tags --max-count=1`)"  | grep -v VERSION | sed '/^$/d' > CHANGELOG.md
+git log --reverse --pretty=format:"%h%+ %B" --since="$(git show -s --format=%ad `git rev-list --tags --max-count=1`)"  | grep -v VERSION | sed '/^$/d' > CHANGELOG.md
 git add -A
 git commit -m "VERSION $NEW_VERSION"
 git tag -a "$NEW_VERSION" -F CHANGELOG.md
