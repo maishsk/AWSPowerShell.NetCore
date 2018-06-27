@@ -1,12 +1,7 @@
-FROM microsoft/powershell:latest
+FROM microsoft/powershell:6.0.2-ubuntu-14.04
 
-LABEL maintainer="Maish Saidel-Keesing <maishsk@gmail.com>" \
-      description="This Docker will allow you to run commands with PowerShell against your AWS infrastructure"
-      org.label-schema.usage="https://github.com/maishsk/AWSPowerShell.NetCore/blob/master/README.md#using-the-container" \
-      org.label-schema.url="https://github.com/maishsk/AWSPowerShell.NetCore/blob/master/README.md" \
-      org.label-schema.vcs-url="https://github.com/maishsk/AWSPowerShell.NetCore" \
-      org.label-schema.name="AWSPowerShell" \
-      org.label-schema.vendor="AWSPowerShell" \
+LABEL maintainer="Maish Saidel-Keesing <https://twitter.com/maishsk>" \
+      description="This Docker image will allow you to run commands with PowerShell against your AWS infrastructure"
 
 ## Install the AWS Powershell module
 RUN pwsh -c \
