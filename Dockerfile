@@ -1,4 +1,4 @@
-FROM microsoft/powershell:6.0.2-ubuntu-14.04
+FROM microsoft/powershell:6.0.3-ubuntu-14.04
 
 LABEL maintainer="Maish Saidel-Keesing <https://twitter.com/maishsk>" \
       description="This Docker image will allow you to run commands with PowerShell against your AWS infrastructure"
