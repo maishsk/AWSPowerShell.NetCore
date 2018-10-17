@@ -4,6 +4,9 @@ This container has allows you to run the AWS PowerShell commands Linux or Mac.
 PowerShell Version: **6.0.2**
 AWSPowerShell.NetCore: **3.3.270.0**
 
+[![Build Status](https://travis-ci.org/maishsk/AWSPowerShell.NetCore.svg?branch=master)](https://travis-ci.org/maishsk/AWSPowerShell.NetCore)
+
+
 ## Requirements
 1. This should be run only on a Linux/Mac machine (Windows has Powershell built in so it does not really make sense).
 2. PowerShell is not currently installed in your machine - and you do not cuyrrehave an alias to the comman
