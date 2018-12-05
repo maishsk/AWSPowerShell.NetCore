@@ -1,0 +1,12 @@
+sudo: required
+
+language: generic
+
+services:
+  - docker
+
+before_install:
+  - BUILD_VERSION=`cat build_versions`
+
+script:
+  - docker build --build-arg PS_VERSION=${BUILD_VERSION} .
